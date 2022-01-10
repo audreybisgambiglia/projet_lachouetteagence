@@ -1,0 +1,146 @@
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header, main {
+    margin: 0;
+}
+
+.title_site {
+    text-align: center;
+    display: block;
+}
+
+.navbar_entiere {
+    position: relative;
+    right: 0;
+}
+
+li {
+    border-bottom: 2px solid #F2F2F2;
+    border-top: none;
+    width: 100%;
+    padding-bottom: 13px;
+}
+
+li:hover {
+    border-bottom: 2px solid #0065FC;
+    border-top: none;
+    width: 100%;
+    padding-bottom: 13px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+}
+
+.t1 { 
+    margin: 15px 25px;
+    font-size: 22px;
+}
+
+.t2 {
+    margin: 15px 25px;
+    font-size: 14px;
+}
+
+/* CSS BARRE DE RECHERCHE */
+
+.search_ent {
+    justify-content: center;
+}
+
+.search { 
+    display: none;
+}
+
+.bouton i {
+    display: inherit;
+}
+
+.bouton {
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: -15px;
+}
+
+.ligne_filtre {
+    display: block;
+    margin: 15px 25px;
+}
+
+.filtre_cad {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+}
+
+.ent_filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.ent_info { 
+    margin-left: 15px;
+}
+
+/* CSS CONTENEUR 1 */
+
+.conteneur {
+    flex-direction: column-reverse;
+}
+
+.flexbox2 {
+    margin-left: 0;
+}
+
+.box_2 {
+    border-radius: 0;
+}
+
+.flexbox1 {
+    background-color: #FFF;
+}
+
+.content_box {
+    gap: 15px; 
+}
+
+/* CSS CONTENEUR 2 */
+
+.conteneur2 {
+    flex-direction: column;
+    margin: 30px 20px;
+}
+
+.img_cadrebox2 {
+    height: 150px;
+}
+
+.img_cadrebox4, .img_cadrebox5, .img_cadrebox6, .img_cadrebox7, .img_cadrebox8 {
+    height: 220px;
+}
+
+/* CSS FOOTER */
+
+footer {
+    margin: 0;
+}
+
+.conteneur3 {
+    display:  flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+}
